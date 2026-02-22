@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MoneyManager.Models
 {
-    internal class Account
+    public class Account
     {
         public int Id { get; set; } // PK
         public int UserId { get; set; } // FK

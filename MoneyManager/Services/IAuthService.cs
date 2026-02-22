@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MoneyManager.Services
 {
-    internal interface IAuthService
+    public interface IAuthService
     {
         Models.User? CurrentUser { get; set; }
 

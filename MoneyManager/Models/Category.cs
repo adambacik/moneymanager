@@ -5,13 +5,13 @@ using System.Text;
 
 namespace MoneyManager.Models
 {
-    enum CategoryType
+    public enum CategoryType
     {
         Income,
         Expense,
     }
 
-    internal class Category
+    public class Category
     {
         public int Id { get; set; } // PK
         public string Name { get; set; } = "";

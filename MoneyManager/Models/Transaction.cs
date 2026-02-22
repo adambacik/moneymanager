@@ -10,7 +10,7 @@ namespace MoneyManager.Models
         Expense,
     }
 
-    internal class Transaction
+    public class Transaction
     {
         public int Id { get; set; } // PK
         public int CategoryId { get; set; } // FK

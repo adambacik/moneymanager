@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MoneyManager.Data
 {
-    internal interface IRepository<T>
+    public interface IRepository<T>
     {
         Task<List<T>> GetAllAsync();
 

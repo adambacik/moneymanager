@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MoneyManager.Data
 {
-    internal class AppDbContext : DbContext
+    public class AppDbContext : DbContext
     {
         public DbSet<Models.User> Users { get; set; }
         public DbSet<Models.Account> Accounts { get; set; }

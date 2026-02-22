@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MoneyManager.Services
 {
-    internal class AuthService : IAuthService
+    public class AuthService : IAuthService
     {
         public Models.User? CurrentUser { get; set; }
         public Data.AppDbContext AppDbContext { get; set; }

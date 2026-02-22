@@ -6,7 +6,7 @@ using System.Text;
 
 namespace MoneyManager.Data
 {
-    internal class Repository<T> : IRepository<T> where T : class
+    public class Repository<T> : IRepository<T> where T : class
     {
         private AppDbContext _db;
         private DbSet<T> _set;

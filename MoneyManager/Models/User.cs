@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MoneyManager.Models
 {
-    internal class User
+    public class User
     {
         public int Id { get; set; } // PK
         public string Username { get; set; } = "";
